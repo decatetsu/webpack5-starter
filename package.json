@@ -4,6 +4,7 @@
   "private": true,
   "author": "decatetsu",
   "license": "MIT",
+  "repository": "https://github.com/decatetsu/webpack5-starter",
   "scripts": {
     "lint:styles": "stylelint \"src/**/*s?(a|c)ss\"",
     "lint:scripts": "eslint src",
