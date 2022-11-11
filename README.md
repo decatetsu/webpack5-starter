@@ -8,6 +8,3 @@ Why this boilerplate is better then others? I don't know, I just like it and bui
 - Babel
 - SCSS support
 - Nice progress bar
-
-## To Do
-- Write some comments

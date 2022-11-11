@@ -9,6 +9,7 @@ module.exports = merge(common, {
     mode: 'production',
     devtool: 'source-map',
     stats: 'errors-only',
+    // Fail on the first error
     bail: true,
     output: {
         filename: 'js/[name].[chunkhash:8].js',

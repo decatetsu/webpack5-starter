@@ -7,6 +7,7 @@ const StyleLintPlugin = require('stylelint-webpack-plugin');
 const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
+    // Building target
     target: 'web',
     mode: 'development',
     devtool: 'eval-cheap-source-map',
@@ -15,7 +16,7 @@ module.exports = merge(common, {
     },
     devServer: {
         client: {
-            logging: 'error',
+            logging: 'warn',
         },
         hot: true,
         port: 3000,
@@ -51,6 +52,7 @@ module.exports = merge(common, {
                             sourceMap: true,
                         },
                     },
+                    // allows to use plugins such as autoprefixer
                     'postcss-loader',
                     'sass-loader',
                 ],
