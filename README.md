@@ -1,5 +1,5 @@
 # webpack5-starter
-Why this boilerplate is better then others? I don't know, I just like it and built for personal use.
+Why this boilerplate is better than others? I don't know, I just like it and built for personal use.
 
 ## What's included
 - Dedicated dev and prod configurations
